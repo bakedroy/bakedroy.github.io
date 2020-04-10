@@ -7,7 +7,7 @@ date: 2020-04-09 16:24:00 +0900
 自宅でもある程度開発とか作業できるようにErgoDox EZを引っ張り出してきて使っている。
 JISでも使えるように以下のようなレイアウトにした。
 
-[Hacky 4](https://configure.ergodox-ez.com/ergodox-ez/layouts/BNpZA/latest/0)
+[Hacky 4](https://configure.ergodox-ez.com/ergodox-ez/layouts/xbrE5/latest/0)
 
 当初、JISのアンダースコアが見当たらなくて困ってたけど、問い合わせたら対応方法を教えてくれた。Lead Developerの人が答えてくれて本当に助かりました。
 
