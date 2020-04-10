@@ -4,4 +4,4 @@ title: About
 permalink: /about/
 ---
 
-no content
+Nothing useful
