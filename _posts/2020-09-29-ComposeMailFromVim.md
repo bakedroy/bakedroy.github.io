@@ -2,6 +2,7 @@
 layout: post
 title: Compose Mail from Vim
 date: 2020-09-29 00:40:00 +0900
+tags: vimscript
 ---
 
 I'm happy if I could compose an email from vim but not realistic. I'm currently using Thunderbird as the primary mail program, and he/she has a command-line interface. Thunderbird is a good mailer, and vim has a better editing environment. So I found that writing a draft in vim and transferring it to Thunderbird will give me an excellent experience.
