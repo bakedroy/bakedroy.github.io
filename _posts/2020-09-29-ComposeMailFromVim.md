@@ -31,7 +31,7 @@ vnoremap ,th :<c-u>call ComposeMessage('"Path-To-Thunderbird-Exe" -compose "form
 
 To transfer a composed message from vim's buffer to Thunderbird, just visually select the text and type `,th` (means THunderbird), then a composing window will appear with the body filled.
 
-## Update 2020/Oct/06
+### Update 2020/Oct/06
 l:body includes unnecessary NL so removed it from L4.
 
 See also: (ib's answer in stackoverflow really helped me!)
