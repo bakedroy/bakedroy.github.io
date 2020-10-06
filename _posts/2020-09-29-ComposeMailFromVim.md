@@ -13,7 +13,7 @@ The following code in vimscript is my option. It works well, but not perfect. It
 function! ComposeMessage(cmdpat)
     let [l:qr, l:qt] = [getreg('"'), getregtype('"')] 
     silent norm! gvy
-    let l:body = substitute(@", '\n', '\r\n', 'g')
+    let l:body = substitute(@", '\n', '\r', 'g')
     let l:bodyfile= 'Path-To-Temp-File'
     if writefile([l:body], l:bodyfile)
         echom 'Failed to write to a temp file.'
@@ -30,6 +30,9 @@ vnoremap ,th :<c-u>call ComposeMessage('"Path-To-Thunderbird-Exe" -compose "form
 ```
 
 To transfer a composed message from vim's buffer to Thunderbird, just visually select the text and type `,th` (means THunderbird), then a composing window will appear with the body filled.
+
+## Update 2020/Oct/06
+l:body includes unnecessary NL so removed it from L4.
 
 See also: (ib's answer in stackoverflow really helped me!)
 - [Command line arguments - Thunderbird](http://kb.mozillazine.org/Command_line_arguments_(Thunderbird))
