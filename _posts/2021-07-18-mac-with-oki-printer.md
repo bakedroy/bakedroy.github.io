@@ -16,10 +16,10 @@ date: 2021-07-18 14:26:00 +0900
 
 それぞれ以下の手段で解決した．
 
-- (AltTab)[https://alt-tab-macos.netlify.app/]
-- (Rectangle)[https://rectangleapp.com/]
-- (AquaSKK)[https://github.com/codefirst/aquaskk]
-- (プリンタードライバーアップデーター)[https://www.oki.com/jp/printing/support/drivers-and-utilities/mono/B411DN/?os=ab57&lang=ac1] 
+- [AltTab](https://alt-tab-macos.netlify.app/)
+- [Rectangle](https://rectangleapp.com/)
+- [AquaSKK](https://github.com/codefirst/aquaskk)
+- [プリンタードライバーアップデーター](https://www.oki.com/jp/printing/support/drivers-and-utilities/mono/B411DN/?os=ab57&lang=ac1) 
 
 # Alt-Tabの動作
 
@@ -28,7 +28,7 @@ WindowsだとAlt-Tabでウィンドウを切り替えてくれる．
 つまり，同じアプリで複数ウィンドウを開いていると，キーボードだけでは切り替えが困難だということだ．
 一応，Cmd-Tabで複数アプリが表示されている状態でカーソルキーを操作すると，同じアプリの別ウィンドウに切り替えられるようだけど，そこまでやるならトラックパッドで操作するかなという程度のダルさ．
 
-そこで，(AltTab)[https://alt-tab-macos.netlify.app/]を入れた．
+そこで，[AltTab](https://alt-tab-macos.netlify.app/)を入れた．
 AltTabを導入すると，Opt-TabでWindowsのAlt-Tab相当の挙動が再現できる．
 作者様天才．
 
@@ -37,7 +37,7 @@ AltTabを導入すると，Opt-TabでWindowsのAlt-Tab相当の挙動が再現�
 WindowsだとWin+カーソルキーで上下左右に4分割，左右に2分割，最大化，最小化の操作が可能だ．
 macOSだと最大化とかはありそうだけど，上下左右4分割と左右に2分割が簡単ではなさそうだった．
 
-そこで，(Rectangle)[https://rectangleapp.com/]を入れた．
+そこで，[Rectangle](https://rectangleapp.com/)を入れた．
 Rectangleを導入すると，様々なキーの組み合わせでウィンドウ操作が可能になる．
 RectangleはOS標準じゃない分，キー割り当てをかなり自由にカスタマイズできるので，寧ろWindowsより便利になった．
 私は，Ctrl-Cmd-カーソルとCtrl-Cmd-u/i/j/kで左右2分割と上下左右4分割のウィンドウ移動を割り当てた．
@@ -53,7 +53,7 @@ macOS 11以前の割と最近のリリースで，日本語入力がかなり変
 少なくとも私には使いこなせそうにない．特に，専門用語については文節も無茶苦茶である．
 変換し直そうとすると，謎のUIによって，さらに異なる文節で再変換が始まったりする．最悪である．
 
-そこで，(AquaSKK)[https://github.com/codefirst/aquaskk]を導入した．
+そこで，[AquaSKK](https://github.com/codefirst/aquaskk)を導入した．
 もともと，WindowsでもSKKFEPを愛用しており，その異常なWebページに違わぬ異常な使い易さと高機能さが気に入っていた．
 しかし，SKKFEPはmacOSでは使えないようなので，代替としてAquaSKKを導入した．
 まだ使い熟せていないが，かなり良い感じだ．好き．
@@ -63,7 +63,7 @@ macOS 11以前の割と最近のリリースで，日本語入力がかなり変
 これは日本語を読めない自分が悪いのだが，プリンタドライバを入れてもMacBook Airから印刷ができなくて困った．
 会計処理で印刷しようとして初めて使えないことに気付いたのでかなり焦った．
 
-ちゃんとドライバのページを読むと，macOS 10.15以降でプリンタードライバーを使用可能にする更新用モジールである(プリンタードライバーアップデーター)[https://www.oki.com/jp/printing/support/drivers-and-utilities/mono/B411DN/?os=ab57&lang=ac1] がリリースされていた．
+ちゃんとドライバのページを読むと，macOS 10.15以降でプリンタードライバーを使用可能にする更新用モジールである[プリンタードライバーアップデーター](https://www.oki.com/jp/printing/support/drivers-and-utilities/mono/B411DN/?os=ab57&lang=ac1) がリリースされていた．
 これを導入することで支障なくプリンタを使えるようになった．やはりプリンタはOKIが良い．
 
 # その他
